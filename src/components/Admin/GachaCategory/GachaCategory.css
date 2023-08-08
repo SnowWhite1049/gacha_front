@@ -1,0 +1,21 @@
+.m__y__30 {
+  margin-top : 30px;
+  margin-bottom: 30px;
+}
+
+.p__y__50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.gacha__card__container {
+  width:420px;
+  height:400px;
+  margin: auto;
+  box-shadow: 0px 2px 5px -2px;
+}
+
+.gacha__header h1 {
+  font-size: 2.3rem;
+  font-weight: bolder ;
+}

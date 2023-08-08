@@ -1,0 +1,14 @@
+.gift__card {
+  box-shadow: 0px 2px 5px -2px;
+  border-radius : 5px;
+  padding-left: 8px;
+  margin-bottom: 30px;
+}
+
+.gift__card__img {
+  transform: rotate(-10deg);
+}
+
+.btn {
+  border:1px solid rgba(0,0,0,.3)
+}

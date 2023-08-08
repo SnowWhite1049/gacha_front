@@ -1,0 +1,28 @@
+.container {
+  /* height: 85vh; */
+  position: relative;
+}
+.gift__action {
+  /* bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute; */
+  box-shadow: rgba(0, 0, 0, 0.4) 0px -4px 5px -5px;
+  padding: 15px;
+}
+
+.gift__space {
+  flex: 1 1 0%;
+  place-self: stretch;
+}
+
+.flex__column {
+  flex-direction: column;
+}
+
+.border {
+  border: 1px solid rgba(153, 147, 147, 0.4);
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}

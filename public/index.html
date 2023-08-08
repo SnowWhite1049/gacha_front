@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="#" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <!-- <meta http-equiv="Content-Security-Policy" content="script-src 'nonce-fbd44dd54cf9fda48e83b5bb71a98c16' 'unsafe-inline';"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Shema</title>
+    <script>
+      let _nonce=(+new Date * Math.random()).toString(36).substring(0, 32);
+    </script>
+
+    <!-- <script src="http://localhost:8097"></script> -->
+    <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js" crossorigin></script>
+    <script src="https://js.stripe.com/v3/" nonce='fbd44dd54cf9fda48e83b5bb71a98c16'></script>    
+  </head>
+  <body data-nonce="fbd44dd54cf9fda48e83b5bb71a98c16">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
