@@ -31,8 +31,8 @@ const History = () => {
     window.scrollTo(0, 0);
   }, [dispatch])
 
-  const orderClick = (id, status, gachaId) => {
-    if (status == 'ordered') {
+  const orderClick = (id, status, gachaId, userId) => {
+    if (status == 'ordered' && userId == Auth.getUserId()) {
       localStorage.setItem('gifts', JSON.stringify([histories.find(history => history.id == id)]))
       window.location.href = `/${gachaId}/result?gift_id=${id}`
     }
@@ -54,7 +54,7 @@ const History = () => {
         </thead>
         <tbody>
           {histories.length > 0 && histories.map(history => (
-            <tr key={history.id} onClick={() => orderClick(history.id, history.status, history.gacha_id)}>
+            <tr key={history.id} onClick={() => orderClick(history.id, history.status, history.gacha_id, history.user_id)}>
               <td>
                 {history.id}
               </td>
